@@ -1,0 +1,5 @@
+site_name: Programming 102
+pages:
+- [index.md, Home]
+- [assign.md, Assignments]
+theme: readthedocs
