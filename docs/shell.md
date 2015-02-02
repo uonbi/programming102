@@ -69,5 +69,104 @@ ls -lh
 This tells the `ls` command to produce “long” output and also to produce “human-readable” output. The long option (-l) lists file sizes and ownership permissions, among other details.
 >**Caution:** Don’t forget that case-sensitivity is vitally important in Ubuntu! Typing `ls -L` is not the same as typing `ls -l`. Each will produce different results.
 
+###Copying Files and Directories ###
+Another useful command for dealing with files is `cp`, which copies files. You can use the cp command in the following way:
+```bash
+cp myfile /home/ubuntu/
+```
+This will copy the file to the location specified. In this example, the filename and location are technically known as *arguments*. Anything that you specify a command should work with is referred to
+as an argument.
 
+One important command-line option for `cp` is `-r`. This stands for recursive and tells BASH that you want to copy a directory and its contents (as well as any directories within this directory). Most
+commands that deal with files have a recursive option.
 
+One curious trick is that you can copy a file from one place to another but, by specifying a filename in the destination part of the command, change its name. Here’s an example:
+```bash
+cp myfile /home/ubuntu/myfile2
+```
+This way of copying files is a handy way of duplicating files. By not specifying a new location in the destination part of the command, but still specifying a different filename, you effectively duplicate the file within the same directory:
+```
+cp myfile myfile2
+```
+
+###Moving Files and Directories ###
+The mv command is similar to cp, except that rather than copying the file, the old one is effectively removed. You can move files from one directory to another, for example, like this:
+```bash
+mv myfile /home/ubuntu/
+```
+You can also use the mv command to quickly rename files:
+```bash
+mv myfile myfile2
+```
+The `mv` command can be used to move a directory in the same way as with files. However, there’s no need to use a command option to specify recursivity, as with other commands.
+
+###Deleting Files and Directories ###
+>Caution: the shell doesn’t operate any kind of Recycle Bin. After a file is deleted, it’s gone forever.
+
+Removing a file is achieved by typing something like this:
+```bash
+rm myfile
+```
+In some instances, you’ll be asked to confirm the deletion after you issue the command. If you want to delete a file without being asked to confirm it, type the following:
+```bash
+rm -f myfile
+```
+
+If you try to use the rm command to remove a directory, you’ll see an error message. This is because the command needs an additional option:
+```bash
+rm -rf mydirectory
+```
+
+###Changing and Creating Directories ###
+Another handy command is `cd`, for *change directory*. This lets you move around the file system from directory to directory. Say you’re in a directory that has another directory in it, named mydirectory2. Switching to it is easy:
+```bash
+cd mydirectory2
+```
+Getting to the parent directory:
+```bash
+cd ..
+```
+To switch to the root of the file system, you would type the following:
+```bash
+cd /
+```
+
+You can create directories with the `mkdir` command:
+```bash
+mkdir mydirectory
+```
+
+What if you want to create a new directory and, at the same time, create a new directory to contain it? Simply use the `-p` command option. The following command will create a new folder called `flowers` and, at the same time, create a directory within `/flowers` called `/daffodil`:
+```bash
+mkdir -p flowers/daffodil
+```
+
+###Using Autocompletion ###
+The Tab key is your best friend when using the shell, because it will cause BASH to automatically complete whatever you type:
+
+* Autocompletion with Files and Paths
+* Viewing Available Options
+
+##Using Keyboard Shortcuts ##
+
+*Keyboard Shortcuts in BASH*
+
+Shortcut | Description 
+:------------------|:-------------------------
+Left/right cursor key |Moves left/right in text
+Ctrl+A | Moves to beginning of line 
+Ctrl+E | Moves to end of line
+Ctrl+right | arrow Moves forward one word
+Ctrl+left | arrow Moves left one word
+ | 
+ Ctrl+U | Deletes everything behind cursor to start of line
+Ctrl+K | Deletes from cursor to end of line
+Ctrl+W | Deletes from cursor to beginning of word
+Alt+D | Deletes from cursor to end of word
+Ctrl+T | Transposes characters on left and right of cursor
+Alt+T | Transposes words on left and right of cursor
+Ctrl+L | Clears screen (everything above current line)
+Ctrl+U | Undoes everything since last command a
+Alt+R | Undoes changes made to the line b
+Ctrl+Y | Undoes deletion of word or line caused by using Ctrl+K, Ctrl+W, and so on c
+Alt+L | Lowercases current word (from the cursor to end of word)
