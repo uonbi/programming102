@@ -2,5 +2,6 @@ site_name: Programming 102
 pages:
 - [index.md, Home]
 - [shell.md, Introduction to Linux Shell]
+- [git.md, Introduction to Git]
 - [assign.md, Assignments]
 theme: readthedocs

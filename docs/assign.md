@@ -1,7 +1,7 @@
 # Assignments
 
 ## Assignment #1
-You can access this quiz here - [p102.sci.website/quiz/01](~/quiz/01)
+You can access this quiz here - [~/quiz/01](p102.sci.website/quiz/01)
 
 
 For each for the following instructions, write the equivalent command to be typed on the terminal:
