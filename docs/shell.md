@@ -1,6 +1,8 @@
 # Introduction to Linux (Bash) Shell
 >Content adopted from *Beginning Ubuntu Linux, 5th Ed.*
 
+> **Why Learning Linux is Important?** - check [A2A here on Quora](http://www.quora.com/How-practical-would-it-be-for-me-as-a-computer-science-student-to-learn-Linux-programming)
+
 You can start the shell in a number of ways. The most common is to use a terminal emulator program. As its name suggests, this runs a shell inside a program window on your Desktop; by clicking Applications > Accessories > Terminal or `ctr + alt + T` keyboard combination.
 
 Below this is the most important component of the terminal window: *the command prompt* — a few words followed by the dollar symbol ($). On our test system, this is what we see:
