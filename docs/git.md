@@ -156,6 +156,7 @@ $ git push
 
 ## For Further Reading
 * Handling Git Conflicts
+* [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 * Tagging
 * Git Fetch
 * Using MarkDown - *for writing README files, etc*
