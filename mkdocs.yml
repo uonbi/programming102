@@ -3,5 +3,6 @@ pages:
 - [index.md, Home]
 - [shell.md, Introduction to Linux Shell]
 - [git.md, Introduction to Git]
+- [python_intro.md, Introduction to Python]
 - [assign.md, Assignments]
 theme: readthedocs
