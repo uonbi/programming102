@@ -155,6 +155,7 @@ $ git push
 > *Note: * Please note that what we've covered is just the basics, Git has a lot more. However, this is enough for now, to get us started.
 
 ## For Further Reading
+* Recommended [Free Git Online Course on CodeSchool](https://www.codeschool.com/courses/try-git)
 * Handling Git Conflicts
 * [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 * Tagging
