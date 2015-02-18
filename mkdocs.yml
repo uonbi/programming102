@@ -4,5 +4,8 @@ pages:
 - [shell.md, Introduction to Linux Shell]
 - [git.md, Introduction to Git]
 - [python_intro.md, Introduction to Python]
+- [python_datatypes.md, Data Types]
+- [python_collections.md, Collection Data Types]
 - [assign.md, Assignments]
+- [reminders.md, Reminders]
 theme: readthedocs
