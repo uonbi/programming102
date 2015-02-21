@@ -1,2 +1,6 @@
 #!/usr/bin/env python3
-print("Hello", "World!")
+print("Jambo World!")
+
+name = input("What's your name? ")
+
+print("Jambo",name)
