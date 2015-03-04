@@ -6,6 +6,7 @@ incrementally.
 #Part 1
 * Create a folder called `kcpe` where will keep all our files.
 * Write a simple program that will take in marks for the file subjects (for one student): Maths, English, Kiswahili, Science, Social Studies &mdash; in that order
+* Make sure you don't take in invalid marks, but rather default them to zero (0)
 
 #Part 2
 * Find the total marks scored by a particular students
