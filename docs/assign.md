@@ -14,3 +14,6 @@ For each for the following instructions, write the equivalent command to be type
 
 > *Note: * Do all the above commands without changing directory (cd) from `home` (~), hence all the questions above should have only one command as the answer.
 
+## Other Assignments
+Other assignments can be found on [our GitHub repo](https://github.com/uonbi/programming102/tree/master/assignments).
+

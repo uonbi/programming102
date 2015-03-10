@@ -6,6 +6,7 @@ pages:
 - [python_intro.md, Introduction to Python]
 - [python_datatypes.md, Data Types]
 - [python_collections.md, Collection Data Types]
+- [python_control.md,Control Structures]
 - [assign.md, Assignments]
 - [reminders.md, Reminders]
 theme: readthedocs
